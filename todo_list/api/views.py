@@ -1,9 +1,12 @@
+from dataclasses import fields
+from pyexpat import model
 from django.shortcuts import render
 from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
 from .models import Task
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
+from django.contrib.auth.views import LoginView
 
 # Create your views here.
 
@@ -29,3 +32,12 @@ class TaskDelete(DeleteView):
     model = Task
     context_object_name = 'task' 
     success_url = reverse_lazy('tasks')
+
+class CustomLoginView(LoginView):
+    template_name = 'api/login.html'
+    fields = '__all__'
+    redirect_authenticated_user = True
+
+    def get_success_url(self):
+        return reverse_lazy('tasks')
+    
