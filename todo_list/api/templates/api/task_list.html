@@ -35,7 +35,12 @@
     <div class="task-title">
       <div class="task-complete-icon">
         <i>
-          <s> <a href="{% url 'task-update' task.id %}"> {{task}} </a> </s>
+          <a
+            style="text-decoration: line-through"
+            href="{% url 'task-update' task.id %}"
+          >
+            {{task}}
+          </a>
         </i>
       </div>
     </div>
