@@ -1,6 +1,8 @@
 # to-do-list-app
 
-superuser =>
-username: user
-email: user12@gmail.com
-password: 1234
+<p>
+  Test username: user 
+</p>
+<p>Password: 1234</p>
+
+
