@@ -16,16 +16,17 @@
 </ul>
 <br/>
 
-<li>
-    <p>You can use the following username and password to login </p>
+
+   <p>You can use the following username and password to login </p>
   <p>
-  Test username: user <br/> Password: 1234
-  </p>
-</li>
-<li>
-    <p>Otherwise register as a new user </p>
+    <ul>
+      <li>Test username: user </li>
+      <li>Password: 1234</li>
+    </ul>
   
-</li>
+  </p>
+
+<p>Otherwise register as a new user </p>
 
 
 
