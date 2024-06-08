@@ -2,7 +2,7 @@
 <h2><u>Run commands:</u> </h2>
 <p>Go to "todo_list" folder inside the "to-do-list-app" folder </p>
 <p>Go to path and open the terminal </p>
-<p>Click the command: 'python manage.py runserver' </p>
+<p>Click the command on the terminal : 'python manage.py runserver' </p>
 <p>Open the browser and go to that link which is showing on the terminal <br/> 'http://127.0.0.1:8000/' </p>
 
 <br/>
