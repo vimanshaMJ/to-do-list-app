@@ -14,12 +14,19 @@
     <p>Open the browser nd go to that link which is showing on the terminal <br/> 'http://127.0.0.1:8000/' </p>
   </li>
 </ul>
+<br/>
 
-<p>Go to terminal run the command "" </p>
+<li>
+    <p>You can use the following username and password to login </p>
+  <p>
+  Test username: user <br/> Password: 1234
+  </p>
+</li>
+<li>
+    <p>Otherwise register as a new user </p>
+  
+</li>
 
-<p>
-  Test username: user 
-</p>
-<p>Password: 1234</p>
+
 
 
